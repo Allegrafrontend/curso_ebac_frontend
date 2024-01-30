@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <form class="form">
+            <label for="nome">Nome completo</label>
+            <input type="text" title="nome" id="nome">
+
+            <label for="email">Email</label>
+            <input type="email" title="email" id="email" required>
+
+            <label for="tel">Telefone</label>
+            <input type="tel" title="telefone" id="tel" name="telefone" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" title="CPF" id="cpf" required>
+
+            <label for="cpf">Endereço</label>
+            <input type="text" title="endereco" id="endereco" required>
+
+            <label for="cep">Código Postal</label>
+            <input type="text" title="Código Postal" id="cep" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    <script src="./messages_pt_BR.js"></script>
+    <script src="./jquery.validate.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
