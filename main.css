@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(221, 160, 221, 0.418);
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+form input{
+    margin-bottom: 16px;
+}
